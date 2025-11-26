@@ -89,8 +89,8 @@ ul {
     margin-right: 
     height: 100%;
     width: 40%;
-    text-align:justify;
-     box-sizing: border-box;
+    text-align: justify;
+    box-sizing: border-box;
 }
 
 .column3 {
@@ -99,4 +99,22 @@ ul {
     margin-right: 15px;
 
 }
-
+.section2, section3 {
+    margin-right: auto;
+  
+    width: 100%;
+}
+/**.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    width: 70%;
+}
+.section3 {
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+    margin-left: auto;
+    height: 100%;
+    flex-direction: column;
+}
