@@ -4,11 +4,28 @@ html, body {
     height: 100%;
     box-sizing: border-box;
     flex-wrap: wrap;
+    background-color: black;
+    color: white;
 }
 *,
 *::before,
 *::after{
     box-sizing: inherit;
+}
+
+#main_container {
+    margin-left: 50px;
+    margin-right: 50px
+    padding: auto;
+    background-color: rgba(44, 40, 40, 0.657);
+
+}
+
+#headshot {
+    border-color: rgba(0, 0, 0, 0.589);
+    border-style: solid;
+
+    border-width: 5px;
 }
 ul{
     display: flex;
@@ -20,6 +37,21 @@ ul{
 }
 
 #headshot {
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
+    margin-left: 15px;
+    margin-top: 15px;
 }
+
+#column1 (
+    margin-left: auto;
+
+)
+
+#column2 (
+
+)
+
+#column3 (
+
+)
